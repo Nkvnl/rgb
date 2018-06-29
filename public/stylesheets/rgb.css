@@ -26,14 +26,14 @@ h1 {
 	line-height: 1.1;
 	font-weight: normal;
 	color: white;
-	background: #FFC108!important;
+	background: #FFC108;
 	margin: 0;
 	text-transform: uppercase;
 	padding: 20px 0;
 }
 
 #colorDisplay {
-	font-size: 200%;
+	font-size: 150%;
 }
 
 #message {

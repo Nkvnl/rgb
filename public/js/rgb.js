@@ -43,7 +43,7 @@ function setupSquares(){
 				h1.style.background = clickedColor;
 			} else {
 				this.style.background = "#232323";
-				messageDisplay.textContent = "Try Again"
+				messageDisplay.textContent = "Nope"
 			}
 		});
 	}
@@ -68,7 +68,7 @@ function reset(){
 			squares[i].style.display = "none";
 		}
 	}
-	h1.style.background = "steelblue";
+	h1.style.background = "#FFC108";
 }
 
 resetButton.addEventListener("click", function(){
